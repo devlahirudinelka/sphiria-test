@@ -1,0 +1,129 @@
+.home-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1vw;
+    width: 100%;
+    height: 82vh;
+    overflow-x: hidden;
+    overflow-x: scroll;
+
+}
+.home-main-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Style the scrollbar track */
+.home-main-container::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+/* Style the scrollbar thumb */
+.home-main-container::-webkit-scrollbar-thumb {
+    background: #88888800;
+    border-radius: 10px;
+}
+
+/* Style the scrollbar thumb when hovering */
+.home-main-container::-webkit-scrollbar-thumb:hover {
+    background: #949494;
+}
+.home-toper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.salutation {
+    color: #4b4b4b7e;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.name-home {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+input.search {
+    width: 360px;
+    border: 0px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: #fff url("https://imgur.com/W5sNpVo.png") no-repeat 10px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.collection-title {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.hot-collections-view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 20px;
+}
+
+.popular-collections-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 30px;
+
+    background-color: #fff;
+
+}
+
+
+.main-wrapper-collection-regular {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.col-3,
+.col-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10px;
+}

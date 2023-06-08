@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-outer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-width: 100vw;
+  height: 100vh;
+  background-image: url("https://www.patternfly.org/v4/images/basic.f4f127adeeaf58d28161c05c04b22668.png");
+  /* The image used */
+
+  /* Used if the image is unavailable */
+  /* height: 500px; */
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.mainContainer {
+  background-color: #f1f5f6;
+  min-width: 95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding: 0.5vw;
+  
+}
+
+.header-component {
+  min-width: 95vw;
+  min-height: 8vh;
+  margin-bottom: 0.5vw;
+  ;
+}
+
+.slide-bar-and-content {
+  min-width: 95vw;
+  min-height: 82vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.slide-bar {
+  min-width: 7vw;
+  height: 100%;
+  background-color: #000000;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  min-width: 87vw;
+  height: 100%;
+  border-radius: 30px;
+  background-color: #f7f7f7;
+}
+
+.navBarSlide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 0.5vw;
+}
+
+nav {
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent !important;
+
+}
+
+/* Basic styles for nav links */
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  min-height: 4vw;
+  width: 4vw;
+}
+
+nav a:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Specific styles for non-active links */
+.link {
+  color: white;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Specific styles for active links */
+.link-active {
+
+  background: #111111;
+  border: 2px solid #262626;
+  border-radius: 30%;
+  color: white;
+}
+
+.link:hover {
+
+  background: #111111;
+  border: 2px solid #262626;
+  border-radius: 30%;
+  color: white;
+}
+
+.content {}
+.profilepic{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }

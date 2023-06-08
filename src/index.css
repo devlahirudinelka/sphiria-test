@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #f1f1f1; */
+  overflow-x: hidden;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* This is the moving part of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* When you hover over the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

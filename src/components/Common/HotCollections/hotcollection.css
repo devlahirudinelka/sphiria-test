@@ -1,0 +1,210 @@
+.main-wrapper-collection {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 2.5px 5px 10px #888888;
+}
+
+.preview {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 2%;
+}
+
+.details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo-brand {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 20px;
+}
+
+.price-brand {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 20px;
+}
+
+.logo-brand div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.nameOfVehicle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+}
+
+.tagOfVehicle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #4b4b4b7e;
+}
+
+.asking {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #4b4b4b7e;
+    text-transform: uppercase;
+}
+
+.PriceOfVehicle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: black;
+}
+
+.usd {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #4b4b4b7e;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    column-gap: 10px;
+}
+
+.secondRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    column-gap: 10px;
+}
+
+.thirdRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.cc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 90%;
+    border-radius: 20px;
+    row-gap: 5px;
+}
+
+.bhp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 90%;
+    border-radius: 20px;
+    row-gap: 5px;
+}
+
+.speed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 90%;
+    border-radius: 20px;
+    row-gap: 5px;
+}
+
+.cylinder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 90%;
+    border-radius: 20px;
+    row-gap: 5px;
+}
+
+.icon-bar {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ffffff8c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-bars {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ffffff8c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+
+.total-run {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    column-gap: 10px;
+}
+
+.vehicleImage {
+    width: 80%;
+}

@@ -17,8 +17,13 @@ function App(props) {
       <Router>
         <div className="main-outer">
           <div className="mainContainer">
-            <div className="header-component">
-              <Header />
+            {/* <div className="header-component">
+              
+            </div> */}
+            <div class="row">
+              <div className="col-12">
+                <Header />
+              </div>
             </div>
             <div className="slide-bar-and-content">
               <div className="slide-bar">

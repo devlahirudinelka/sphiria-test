@@ -18,13 +18,6 @@
     padding: 10px 0px;
 }
 
-.col-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 800;
-    color: #555555;
-    text-transform: uppercase;
-}
 
 .col-title-text {
     font-family: 'Poppins', sans-serif;
@@ -82,20 +75,76 @@
     cursor: pointer;
     /* Mouse pointer on hover */
 }
+
 .icon-button:hover {
     background-color: #4BD7FB;
     border-radius: 50px;
     /* Green background */
     border: 0.5px solid #4BD7FB;
-    
+
     /* Mouse pointer on hover */
 }
-.fa-play{
+
+.fa-play {
     margin-left: 20px;
 }
-.flexend{
+
+.flexend {
     display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+@media only screen and (min-device-width: 480px) and (orientation: portrait) {
+  
+
+    .icon-button {
+
+        font-size:6px;
+        font-weight: 700;
+        padding: 10px 20px;
+        cursor: pointer;
+        /* Mouse pointer on hover */
+    }
+
+   
+}
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+    .col-title-text {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        color: #555555;
+        text-transform: uppercase;
+    }
+
+    .col-title-text-car {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        color: #292929;
+        text-transform: uppercase;
+    }
+
+    .icon-button {
+
+        font-size: 5px;
+        font-weight: 700;
+        padding: 5px 10px;
+        cursor: pointer;
+        /* Mouse pointer on hover */
+    }
+        .main-wrapper-collection-regular {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            border-radius: 30px;
+            padding: 5px;
+            background-color: #fff;
+        }
 }

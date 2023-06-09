@@ -28,7 +28,7 @@
   justify-content: space-between;
   border-radius: 30px;
   padding: 0.5vw;
-  
+
 }
 
 .header-component {
@@ -124,8 +124,104 @@ nav a:hover {
 }
 
 .content {}
-.profilepic{
+
+.profilepic {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
+
+@media (min-width: 400px) {
+  /*  Styles for viewports wider than 400 pixels. */
+}
+
+@media (max-width: 400px) {
+  /* Styles for viewports narrower than 400 pixels. */
+}
+
+@media (min-width: 50em) and (max-width: 60em) {
+  /* Styles for viewports wider than 50em and narrower than 60em. */
+}
+
+/* ----------------------------------------------------------------- */
+/* For Desktop View */
+@media screen and (min-width: 1024px) {}
+
+/* For Tablet View */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vw;
+
+  }
+
+  .mainContainer {
+    background-color: #f1f5f6;
+    min-width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 20px;
+
+  }
+}
+
+/* For Mobile Portrait View */
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+  .slide-bar {
+    min-width: 10vw;
+    height: 100%;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .content {
+    min-width: 83vw;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #f7f7f7;
+  }
+
+  .navBarSlide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 3vw;
+  }
+    nav a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      min-height: 60px;
+      width: 60px;
+    }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {}
+
+;

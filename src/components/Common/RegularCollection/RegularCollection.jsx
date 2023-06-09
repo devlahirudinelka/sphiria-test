@@ -20,7 +20,7 @@ export default function RegularCollection(props) {
         </div>
         <div class="col-2 flexend">
           <button class="icon-button">
-             Confirm<i class="fas fa-play"></i>
+             See details<i class="fas fa-play"></i>
           </button>
         </div>
       </div>
